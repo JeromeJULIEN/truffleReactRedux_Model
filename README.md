@@ -37,7 +37,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 The store is structured using Redux in ```/client/src/store```
 
 There is two reducer in ```/client/src/store/reducers``` :
-- One dedicated to front app data,called ```data```
+- One dedicated to front app data,called ```app```
 - One dedicated to web3 constants, called ```web3```
 
 Actions are also structured with the same logic
