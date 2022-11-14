@@ -1,8 +1,6 @@
 import React from 'react';
-import { useEffect } from 'react';
 import {useDispatch, useSelector} from 'react-redux'
-import { initWeb3, setValue } from '../../store/actions';
-import Web3 from "web3";
+import {setValue } from '../../store/actions/app';
 import { useState } from 'react';
 
 
@@ -11,7 +9,7 @@ import { useState } from 'react';
 const Main = () => {
 
     
-    const value = useSelector(state => state.data.value);
+    const value = useSelector(state => state.app.value);
     const contract = useSelector(state => state.web3.contract);
     const accounts = useSelector(state => state.web3.accounts)
     const [newValue,setNewValue] = useState("");

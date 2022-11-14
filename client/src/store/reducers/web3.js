@@ -1,4 +1,4 @@
-import { INIT_WEB3 } from "../actions";
+import { INIT_WEB3 } from "../actions/web3";
 
 const initialState = {
     artifact: null,

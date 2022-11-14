@@ -1,11 +1,11 @@
-import {  SET_VALUE } from "../actions";
+import {  SET_VALUE } from "../actions/app";
 
 export const initialState = {
     value:666
 };
 
 
-const dataReducer = (state = initialState,action={}) =>{
+const appReducer = (state = initialState,action={}) =>{
     switch(action.type){
         case SET_VALUE:{
             return {
@@ -18,4 +18,4 @@ const dataReducer = (state = initialState,action={}) =>{
         }
     }
     
-export default dataReducer;
+export default appReducer;

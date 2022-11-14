@@ -1,13 +1,13 @@
 import { combineReducers } from "redux";
 
 
-import dataReducer from "./data";
+import appReducer from "./app";
 import web3Reducer from "./web3";
 
 
 const rootReducer = combineReducers({
     web3 : web3Reducer,
-    data: dataReducer
+    app: appReducer
 });
 
 export default rootReducer;
