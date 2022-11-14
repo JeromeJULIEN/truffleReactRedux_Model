@@ -51,4 +51,4 @@ Migration script is configured for ganache
 
 ### Available scripts
 #### `truffle migrate`
-Launch the compilation of the slected contract in the directory `/client/src/contracts`
+Launch the compilation of the selected contract in the directory `/client/src/contracts`
